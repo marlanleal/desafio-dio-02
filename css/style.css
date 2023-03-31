@@ -1,0 +1,295 @@
+/*style base da aula*/
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #ffffff;
+
+
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+
+
+}
+
+.menu {
+    width: 24%;
+    background-color: #78a4c6;
+    padding: 212px 20px;
+    justify-content: center;
+}
+
+.header {
+    background-color: #535775;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 15px;
+    border: 10px solid #535775;
+
+}
+
+.footer {
+
+    background-color: #535775;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+/*style menu*/
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu ul li {
+
+    display: block;
+    cursor: pointer;
+    font-size: 21px;
+    font-family: sans-serif;
+
+
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    display: flex;
+    background: #78a4c6;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+
+
+
+}
+
+.menu ul li a:hover {
+    background-color: #535775;
+    color: #5DD1BC;
+    transition: .8s;
+
+}
+
+/*style caixa footer*/
+.caixa-footer {
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 21px;
+
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 7px;
+    font-family: sans-serif;
+
+}
+
+h1 {
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #5DD1BC;
+    font-size: 53px;
+    margin-left: 20px;
+
+}
+
+h4 {
+    margin-top: 0;
+    margin-left: 100px;
+    color: #80beec;
+    font-size: 39px;
+}
+
+/*style topo*/
+#logo-01 {
+    width: 100px;
+    border-radius: 70%;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid #5DD1BC;
+}
+
+.figura-topo {
+    display: flex;
+    border: 10px solid #535775;
+}
+
+.figura-topo,
+.pagina-topo,
+#banner-pg-01 {
+    max-width: 100%;
+    height: 350px;
+
+}
+
+/*style content*/
+h2 {
+    font-size: 2.9rem;
+    color: #535775;
+    margin-bottom: 20px;
+
+}
+
+p {
+    font-size: 1.5rem;
+    color: #535775;
+    text-align: justify;
+    margin-top: 0px;
+}
+
+/*style tabela horário*/
+.tabela-horario {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #535775;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #78a4c6;
+    border-spacing: 6px;
+
+}
+
+.tb-tabela,
+th,
+td {
+    border: #5DD1BC 2px solid;
+    border-radius: 4px;
+    color: #535775;
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+#ter-carl,
+#qui-carl,
+#sex-carl,
+#sab-carl {
+    background-color: #d3d4d6;
+}
+
+#seg-caro,
+#qua-caro,
+#sab-clau {
+    background-color: #d3d4d6;
+}
+
+#ter-clau,
+#qui-clau,
+#sex-caro {
+    background-color: #d3d4d6;
+}
+
+/*style endereço*/
+#endereco {
+    font-size: 14pt;
+    padding: 20px;
+    border-bottom: 2px solid #5DD1BC;
+}
+
+/*style maps*/
+#maps {
+    padding: 20px;
+    border: 2px solid #5DD1BC;
+    border-radius: 6px;
+    margin-left: 150px;
+}
+
+/*style campo de mensagem*/
+.camp-menseg {
+    display: flex;
+    text-align: center;
+    font-size: 12pt;
+    justify-content: center;
+}
+
+#input {
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+
+}
+
+.fild {
+    border: 1px solid #535775;
+    border-radius: 6px;
+    background-color: #535775;
+}
+
+#legend {
+    color: #535775;
+    font-size: 16pt;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #535775;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+}
+
+#label {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+#hr {
+    margin-top: 35px;
+    border: 1px solid #5DD1BC;
+}
+
+/*style botao enviar*/
+.botao {
+    padding: 5px 25px 5px 25px;
+    border-radius: 6px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 15px;
+    background: #535775;
+    color: white;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background: #5DD1BC;
+    color: #535775;
+    transition: 0.5s;
+}
